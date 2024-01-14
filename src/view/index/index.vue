@@ -1,14 +1,17 @@
 <template>
 	<div class="container">
 		<div class="content">
-			<h1 class="animate__backInDown">Hello World!</h1>
+			<component :is="dynamicComponent"></component>
 			<hr class="con-hr" />
-			<div class="introduce">Introduce</div>
 		</div>
+		<h1>nihao</h1>
 	</div>
 </template>
 
 <script setup>
+	import {ref} from 'vue'
+	import Default from '@/components/default/index.vue'
+	const dynamicComponent = ref(Default)
 </script>
 
 <style scoped lang="scss">
@@ -19,7 +22,7 @@
 		color: #fff;
 		@extend .common-flex-col-center;
 		padding: 40px;
-
+		position: relative;
 		.content {
 			width: 400px;
 
