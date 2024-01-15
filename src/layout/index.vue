@@ -25,7 +25,7 @@
 	.container {
 		color: $baseColor;
 		@extend .common-flex-col-center;
-		padding: 40px;
+		// padding: 40px;
 		position: relative;
 	
 		.botton-content {
