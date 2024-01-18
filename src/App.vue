@@ -1,6 +1,10 @@
 <template>
-	<router-view></router-view>
-	<Layout></Layout>
+	<a-watermark content="clearlove">
+		<!-- 操作角标 -->
+		<!-- <a-float-button @click="handleClick" /> -->
+		<router-view></router-view>
+		<Layout></Layout>
+	</a-watermark>
 </template>
 
 <script setup>
@@ -9,7 +13,8 @@
 
 <style lang="scss">
 	@import '@/base.scss';
-  body{
+
+	body {
 		margin: 0;
 		padding: 0;
 		background-color: $bgColor;

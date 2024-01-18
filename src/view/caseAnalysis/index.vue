@@ -6,7 +6,10 @@
 </script>
 
 <style lang="scss" scoped>
+	@import '@/base.scss';
+	@import '@/layout.scss';
+	
 	.content{
-		color: #fff;
+		color: $baseColor;
 	}
 </style>

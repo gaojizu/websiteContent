@@ -1,12 +1,17 @@
 <template>
-	<div class="content">技术前沿</div>
+	<div class="content">
+		
+	</div>
 </template>
 
 <script setup>
 </script>
 
 <style lang="scss" scoped>
+	@import '@/base.scss';
+	@import '@/layout.scss';
 	.content{
-		color: #fff;
+		color: $baseColor;
+		position: relative;
 	}
 </style>

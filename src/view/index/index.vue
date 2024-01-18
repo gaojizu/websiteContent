@@ -10,7 +10,7 @@
 
 <script setup>
 	import { ref } from 'vue'
-	import Default from '@/components/default/index.vue'
+	import Default from '@/components/Default/index.vue'
 	import ImageLayout from '@/components/ImageLayout/index.vue'
 	const dynamicComponent = ref(Default)
 </script>
@@ -25,7 +25,7 @@
 		position: relative;
 		.content {
 			width: 400px;
-			
+			margin-top: 40px;
 		}
 	}
 </style>

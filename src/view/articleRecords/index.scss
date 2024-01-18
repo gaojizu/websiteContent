@@ -1,0 +1,86 @@
+@import '@/base.scss';
+	@import '@/layout.scss';
+
+	.root {
+		position: relative;
+		padding-bottom: 100px;
+
+		.constater {
+			@extend .common-flex-col-center;
+			width: 100%;
+
+			.content {
+				color: $baseColor;
+				padding: 20px;
+				box-sizing: border-box;
+				@extend .common-flex-row;
+				flex-wrap: wrap;
+				justify-content: center;
+
+				.art-content {
+					width: 250px;
+					background-color: $baseColor;
+					padding: 20px;
+					height: 300px;
+					border: none;
+					border-right: 1px solid #efefef;
+					border-bottom: 1px solid #efefef;
+					@extend .common-flex-col;
+					color: $baseBlackColor;
+					margin: 5px;
+					justify-content: space-between;
+
+					.art-show-content {
+						.art-heading {
+							font-size: 20px;
+							font-weight: bold;
+						}
+
+						.art-sub-title {
+							font-size: 14px;
+							margin-top: 10px;
+						}
+
+						.art-author {
+							margin-top: 10px;
+						}
+
+						.art-date {
+							margin-top: 10px;
+						}
+
+						.art-label {
+							margin-top: 10px;
+							.art-tag{
+								margin: 0 5px 5px 0;
+							}
+						}
+					}
+
+				}
+
+				.art-option {
+					.art-btn {
+						border: none;
+						background-color: $bgColor;
+						padding: 10px;
+						color: $baseColor;
+						cursor: pointer;
+						border-radius: 20px;
+						font-weight: bold;
+					}
+
+				}
+
+				.art-content:hover {
+					transition: 0.5s ease-in-out;
+					box-shadow: inset 0 0 30px rgba(0, 0, 0, .4);
+
+					.art-btn {
+						transition: 0.5s ease-in-out;
+						scale: 1.2;
+					}
+				}
+			}
+		}
+	}

@@ -25,14 +25,12 @@
 	.container {
 		color: $baseColor;
 		@extend .common-flex-col-center;
-		// padding: 40px;
 		position: relative;
 	
 		.botton-content {
 			position: fixed;
 			bottom: 0;
 			height: 100px;
-			// background-color: #CD0B0B;
 			background: linear-gradient(#e42424,#CD0B0B);
 			width: 100%;
 			@extend .common-flex-row;
