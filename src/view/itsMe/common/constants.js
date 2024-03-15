@@ -8,6 +8,10 @@
  */
 
 import CZKJ from '../common/MDS/czkj/index.md'
+import ZXKJ from '../common/MDS/zxkj/index.md'
+import YLKJ from '../common/MDS/ylkj/index.md'
+
+
 
 export const dotLists = [
   {
@@ -32,7 +36,7 @@ export const dotLists = [
     todo:'开发的一个内部的工单系统，主要是解决了外部人员出现了节目问题，反馈给客服之后，内部人员无法第一时间得知问题并处理的问题，实现系统交互和页面',
     leaveReason:'因为是成熟企业，内部的项目相对比较稳定，我做的项目是一个迭代性质的项目，工作量较小，薪资待遇也未能达到预期',
     projectContent:'请用鼠标左键点击以下此处➡️',
-    path:CZKJ
+    path:ZXKJ
   },
   {
     id: 2,
@@ -44,7 +48,7 @@ export const dotLists = [
     todo:'两个项目的前端负责人，进行框架的搭建，代码实现规范和功能性把控，组件库二次封装提供给其他小伙伴使用',
     leaveReason:'公司后期展业需要频繁出差，个人无法接受频繁出差！',
     projectContent:'请用鼠标左键点击以下此处➡️',
-    path:CZKJ
+    path:YLKJ
   },
   {
     id: 3,
