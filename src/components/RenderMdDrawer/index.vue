@@ -13,7 +13,7 @@
 			</div>
 			<div class="showTip" @click="closeDrawer">
 				<!-- 这里放的是自己录制的视频 -->
-				<img src="@/assets/images/jige.gif" alt="" />
+				<!-- <img src="@/assets/images/jige.gif" alt="" /> -->
 			</div>
 		</a-drawer>
 	</div>
@@ -56,24 +56,29 @@
 <style scoped lang="scss">
 	@import '@/base.scss';
 	@import '@/layout.scss';
-  .common-absolute{
+
+	.common-absolute {
 		position: absolute;
 	}
+
 	.drawer {
 		position: relative;
-    .showTip{
+
+		.showTip {
 			position: absolute;
 			top: 10px;
-			left:calc(-30% - 100px) ;
+			left: calc(-30% - 100px);
 			width: calc(30%);
 			height: 100vh;
 			// border: 1px solid #f40;
 			// background-color: $baseColor;
 			color: $baseColor;
-			img{
+
+			img {
 				margin: 10px 0;
 			}
 		}
+
 		.closeIcon {
 			position: absolute;
 			top: 3px;

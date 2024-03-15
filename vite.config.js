@@ -19,7 +19,7 @@ export default defineConfig({
 		assetsInclude: ['**/*.ppt','**/*.md'],
 		// chunk 大小警告的限制（以 kbs 为单位）
 		chunkSizeWarningLimit: 2000,
-		// 在生产环境移除console.log
+		assetsPublicPath:'./',
 		terserOptions: {
 			compress: {
 				drop_console: false,
@@ -28,6 +28,7 @@ export default defineConfig({
 		}
 	},
 	server: {
-		port: 8902
+		host: '0.0.0.0',
+		port: 80
 	}
 })

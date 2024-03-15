@@ -13,7 +13,8 @@
 </template>
 
 <script setup>
-
+	import {inject } from 'vue'
+console.log(inject('globalData'))
 </script>
 
 <style lang="scss" scoped>

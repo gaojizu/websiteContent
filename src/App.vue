@@ -1,7 +1,9 @@
 <template>
 	<a-watermark content="clearlove">
 		<!-- 操作角标 -->
-		<!-- <a-float-button @click="handleClick" /> -->
+		<a-float-button @click="handleClick" href="./">
+			<template v-slot:description>首页</template>
+		</a-float-button>
 		<router-view></router-view>
 		<Layout></Layout>
 	</a-watermark>
