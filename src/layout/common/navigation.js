@@ -1,3 +1,11 @@
+/*
+ * @use: 
+ * @description: 
+ * @SpecialInstructions: 无
+ * @Author: clearlove
+ * @Date: 2024-01-14 17:25:35
+ * @FilePath: /websiteContent/src/layout/common/navigation.js
+ */
 /**
  * @Description:
  * @author:clearlove
@@ -36,12 +44,12 @@ export const navigationLists = [
 	// 	subtitle: 'Case analysis.',
 	// 	path: '/caseAnalysis'
 	// },
-	// {
-	// 	id: 5,
-	// 	heading: '程序人生.',
-	// 	subtitle: 'Programmed Life.',
-	// 	path: 'programmedLife'
-	// },
+	{
+		id: 5,
+		heading: '程序人生.',
+		subtitle: 'Programmed Life.',
+		path: 'programmedLife'
+	},
 	{
 		id: 6,
 		heading: '是我了.',

@@ -35,9 +35,6 @@
         </a-space>
       </div>
     </v-parallax>
-    <div class="its-footer">
-      <BiographicalNotes></BiographicalNotes>
-    </div>
   </div>
 </template>
 
@@ -46,7 +43,6 @@ import { onMounted } from "vue";
 import { isBottom } from "@/common/utils";
 import { baseInfo } from "./common/baseInfo";
 import material from "@/assets/images/material.jpg";
-import BiographicalNotes from "./components/BiographicalNotes/index.vue";
 
 // 滚动效果
 const handleScroll = () => {
